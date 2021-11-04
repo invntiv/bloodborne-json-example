@@ -1,0 +1,38 @@
+{
+    "name" : "Cleric Beast",
+    "description" : "A boss in Bloodborne. While optional, it's likely the first boss that most new players encounter.",
+    "general info" : {
+        "hp": 3015,
+        "blood echoes": 4000,
+        "location" : "Central Yharnam",
+        "drops" : {
+            "items": "Sword Hunter Badge",
+            "blood echoes" : {
+                "NG" : 4000, 
+                "NG+": 61812,
+                "NG++": 67994, 
+                "NG+3": 77265, 
+                "NG+5": 92718,
+                "NG+6": 154530, 
+                "NG+7": 265173
+            }
+        }
+    },
+    "attributes": {
+       "defense" : {
+           "physical DEF" : 103,
+           "vs blunt" : 123,
+           "vs thrust" : 103,
+           "vs blood" : 103,
+           "vs arcane" : 165,
+           "vs fire" : 50,
+           "vs bolt" : 165,
+           "resistances" : {
+               "slow poison res" : 999,
+               "rapid poison res" : 999,
+               "vs beasts": true,
+               "vs kin": false
+           }
+       }
+    }
+}
